@@ -42,4 +42,4 @@ USER www
 #EXPOSE 9000
 #CMD ["php-fpm"]
 #CMD ["php", "artisan", "key:generate"]
-CMD ["php", "artisan", "serve", "--host", "0.0.0.0"
+CMD ["php", "artisan", "serve", "--host", "0.0.0.0"]
